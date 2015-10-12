@@ -1,0 +1,43 @@
+.content, .content-padded{
+    padding-top:46px;
+}
+
+.padded{
+    margin: 10px;
+}
+
+.single-meta{
+    padding: 0 0 15px;
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+#refresh-button.refreshing {
+    -webkit-animation-name: rotating;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.popover .table-view{
+    max-height: 400px;
+}
+
+.table-view-divider a, .table-view-cell>a:not(.btn){
+    color:#428bca;
+}
+
+.content>.table-view:first-child.ul-align-top-archive {
+    margin-top: -2px;
+}
+
+.content>.table-view:first-child.ul-align-top-comments {
+    margin-top: -13px;
+}

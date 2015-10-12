@@ -1,0 +1,9 @@
+<div id="menu" class="popover">
+    <ul class="table-view">
+        <% if(menu_items.length){ %>
+            <% _.each( menu_items, function( menu_item ){ %>
+                <li class="table-view-cell"><a href="<%= menu_item.link %>" class="navigate-right"><%= menu_item.label %> <span class="glyphicon glyphicon-chevron-right pull-right visible-xs"></span></a></li>
+            <% }) %>
+        <% } %>
+    </ul>
+</div>

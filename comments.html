@@ -1,0 +1,27 @@
+<div class="content content-padded">
+
+    <ul class="table-view ul-align-top-comments">
+        
+        <li class="table-view-cell table-view-divider">
+            Comments on <a href="<%= TemplateTags.getPostLink(post.id) %>">"<%= post.title %>"</a>
+        </li>
+        
+        <% if(comments.length){ %>
+        
+            <% _.each( comments, function( comment ){ %>
+                <li class="table-view-cell" style="padding-left:<% print((comment.depth-1)*2) %>em" >
+                    <div class="media-body">
+                        <%= comment.author %>&nbsp;<span class="badge"><%= TemplateTags.formatDate(comment.date,'d/m/Y') %></span>
+                        <p><%= comment.content %></p>
+                    </div>
+                </li>
+            <% }); %>
+            
+        <% }else{ %>
+        
+            <li class="table-view-cell table-view-divider">No comment!</li>
+            
+        <% } %>
+    </ul>
+    
+</div><!-- /.content -->
