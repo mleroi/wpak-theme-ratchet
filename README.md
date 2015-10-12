@@ -7,7 +7,7 @@ Author: UncatCrea
 Author URI: http://uncategorized-creations.com		
 -->
 
-# Wpak Ratchet Demo Theme
+# WP-AppKit Ratchet Demo Theme
 
 This WP-AppKit is based on the <a href="http://goratchet.com/">Ratchet</a> mobile apps Front End Framework.
 
