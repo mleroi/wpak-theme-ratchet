@@ -2,7 +2,7 @@
 Theme Name: Ratchet Demo Theme
 Description: WP-AppKit demo theme using the Ratchet Front End Framework
 Version: 0.2
-Theme URI: https://github.com/uncatcrea/wpak-bootstrap-themes
+Theme URI: https://github.com/mleroi/wpak-theme-ratchet
 Author: UncatCrea			
 Author URI: http://uncategorized-creations.com		
 -->
@@ -19,7 +19,7 @@ This WP-AppKit theme is based on the <a href="http://goratchet.com/">Ratchet</a>
 * Activate WP-AppKit using the _Plugins_ WordPress admin panel. (Browse the *Installed Plugins* list and click the *Activate* link of WP-AppKit.)
 * Now you should have a brand new */wp-content/themes-wp-appkit* folder (yes, this is where app themes are stored)
 
-**Bootstrap theme install**
+**Ratchet theme install**
 
 * Create a new folder "ratchet" in the */wp-content/themes-wp-appkit* directory
 * Download the Ratchet theme from this repository and drop the source files to your "ratchet" folder
